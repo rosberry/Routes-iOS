@@ -20,8 +20,8 @@
          productRefGroup = "OBJ_20";
          projectDirPath = ".";
          targets = (
-            "Routes-iOS::Routes-iOS",
-            "Routes-iOS::SwiftPMPackageDescription"
+            "Routes::Routes",
+            "Routes::SwiftPMPackageDescription"
          );
       };
       "OBJ_10" = {
@@ -100,7 +100,7 @@
       "OBJ_20" = {
          isa = "PBXGroup";
          children = (
-            "Routes-iOS::Routes-iOS::Product"
+            "Routes::Routes::Product"
          );
          name = "Products";
          path = "";
@@ -131,7 +131,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "Routes-iOS.xcodeproj/Routes_iOS_Info.plist";
+            INFOPLIST_FILE = "Routes.xcodeproj/Routes_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "12.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -147,7 +147,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "Routes-iOS";
+            PRODUCT_BUNDLE_IDENTIFIER = "Routes";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -155,7 +155,7 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Routes-iOS";
+            TARGET_NAME = "Routes";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
@@ -172,7 +172,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "Routes-iOS.xcodeproj/Routes_iOS_Info.plist";
+            INFOPLIST_FILE = "Routes.xcodeproj/Routes_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "12.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -188,7 +188,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "Routes-iOS";
+            PRODUCT_BUNDLE_IDENTIFIER = "Routes";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -196,7 +196,7 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Routes-iOS";
+            TARGET_NAME = "Routes";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
@@ -432,7 +432,7 @@
          path = "MailRoute";
          sourceTree = "<group>";
       };
-      "Routes-iOS::Routes-iOS" = {
+      "Routes::Routes" = {
          isa = "PBXNativeTarget";
          buildConfigurationList = "OBJ_24";
          buildPhases = (
@@ -441,17 +441,17 @@
          );
          dependencies = (
          );
-         name = "Routes-iOS";
-         productName = "Routes_iOS";
-         productReference = "Routes-iOS::Routes-iOS::Product";
+         name = "Routes";
+         productName = "Routes";
+         productReference = "Routes::Routes::Product";
          productType = "com.apple.product-type.framework";
       };
-      "Routes-iOS::Routes-iOS::Product" = {
+      "Routes::Routes::Product" = {
          isa = "PBXFileReference";
-         path = "Routes_iOS.framework";
+         path = "Routes.framework";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
-      "Routes-iOS::SwiftPMPackageDescription" = {
+      "Routes::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
          buildConfigurationList = "OBJ_38";
          buildPhases = (
@@ -459,8 +459,8 @@
          );
          dependencies = (
          );
-         name = "Routes-iOSPackageDescription";
-         productName = "Routes-iOSPackageDescription";
+         name = "RoutesPackageDescription";
+         productName = "RoutesPackageDescription";
          productType = "com.apple.product-type.framework";
       };
    };

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "Routes-iOS::Routes-iOS"
-               BuildableName = "Routes_iOS.framework"
-               BlueprintName = "Routes-iOS"
-               ReferencedContainer = "container:Routes-iOS.xcodeproj">
+               BlueprintIdentifier = "Routes::Routes"
+               BuildableName = "Routes.framework"
+               BlueprintName = "Routes"
+               ReferencedContainer = "container:Routes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
