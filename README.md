@@ -9,6 +9,27 @@ Available routes:
 - ShareRoute - route to default share flow
 - URLRoute - route to open URL with safary view controller or with default browser
 
+## Installation
+
+### Depo
+
+[Depo](https://github.com/rosberry/depo) is a universal dependency manager that combines CocoaPods, Carthage and SPM.
+
+You can use Depo to install Routes-iOS by adding it to your `Depofile`:
+```yaml
+carts:
+  - kind: github
+    identifier: rosberry/routes-ios
+```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate Layout into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "rosberry/routes-ios"
+```
+
 ## About
 
 <img src="https://github.com/rosberry/Foundation/blob/master/Assets/full_logo.png?raw=true" height="100" />
