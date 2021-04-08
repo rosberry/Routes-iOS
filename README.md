@@ -19,15 +19,15 @@ You can use Depo to install Routes-iOS by adding it to your `Depofile`:
 ```yaml
 carts:
   - kind: github
-    identifier: rosberry/routes-ios
+    identifier: rosberry/Routes-iOS
 ```
 
 ### Carthage
 
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate Layout into your Xcode project using Carthage, specify it in your `Cartfile`:
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate Routes-iOS into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "rosberry/routes-ios"
+github "rosberry/Routes-iOS"
 ```
 
 ## About
