@@ -34,7 +34,7 @@ public extension MailRoute where Self: Router {
         }
         controller.setPreferredSendingEmailAddress(parameters.preferredSendingEmailAddress)
 
-        controller.present(controller, animated: true, completion: nil)
+        viewController?.present(controller, animated: true, completion: nil)
         return controller
     }
 
