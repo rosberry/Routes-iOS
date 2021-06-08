@@ -25,6 +25,8 @@ public class MailParameters {
         components?.queryItems = queryItems
         return components?.url
     }
+
+    public init() {}
 }
 
 public final class RichMailParameters: MailParameters {
