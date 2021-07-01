@@ -26,7 +26,7 @@ open class BaseRouter<ViewController: UIViewController>: Router {
 
 extension UIViewController {
 
-    func findTopViewControllerRecursively() -> UIViewController {
+    public func findTopViewControllerRecursively() -> UIViewController {
         if let presentedViewController = presentedViewController {
             return presentedViewController.findTopViewControllerRecursively()
         }
