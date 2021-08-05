@@ -123,6 +123,6 @@ public extension PhotoRoute where Self: Router {
 
         imagePickerController.delegate = delegate
         imagePickerController.presentationController?.delegate = delegate
-        viewController?.present(imagePickerController, animated: true)
+        topViewController?.present(imagePickerController, animated: true)
     }
 }

@@ -17,7 +17,7 @@ public extension AlertRoute where Self: Router {
                                                     preferredStyle: preferredStyle)
         actions.forEach { action in
             alertViewController.addAction(action)
-        }            
-        viewController?.present(alertViewController, animated: true, completion: nil)
+        }
+        topViewController?.present(alertViewController, animated: true, completion: nil)
     }
 }

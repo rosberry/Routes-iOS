@@ -35,6 +35,6 @@ public extension ShareRoute where Self: Router {
         activityViewController.completionWithItemsHandler = { _, completed, _, _ in
             completion?(completed)
         }
-        viewController?.present(activityViewController, animated: true, completion: nil)
+        topViewController?.present(activityViewController, animated: true, completion: nil)
     }
 }
